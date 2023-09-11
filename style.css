@@ -15,7 +15,6 @@ a:visited{
     text-decoration: none;
 }
 body{
-    background-color: black;
     background-image: url(mainbackground.jpg);
     background-position: center;
     background-size: cover;
@@ -243,7 +242,7 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    height: fit-content;
     padding-left: 40px;
     background-repeat: no-repeat;
     background-size: cover;
